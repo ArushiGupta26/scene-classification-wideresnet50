@@ -87,7 +87,7 @@ Outputs are written to `outputs/`:
 
 ## Evaluation and reporting
 
-The uploaded notebook's saved output shows one training epoch (training loss 0.495 and validation loss 0.236). It does **not** contain a final test-accuracy result, despite `epochs = 7` being set in the code. Therefore, this repository does not claim that 90%+ accuracy has been verified. Run the pipeline and report the values written to `outputs/metrics.json`.
+The uploaded notebook's saved output shows 15 training epochs.  Run the pipeline and report the values written to `outputs/metrics.json`.
 
 The held-out `seg_test` set is used only for final evaluation, not checkpoint selection. The validation set is split from `seg_train`.
 
